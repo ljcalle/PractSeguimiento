@@ -7,7 +7,11 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-seguro-hijo',
   standalone: true,
-  imports: [CaracteristicasComponent, CommonModule, FormsModule],
+  imports: [
+    CaracteristicasComponent,
+    CommonModule,
+    FormsModule
+  ],
   templateUrl: './seguro-hijo.component.html',
   styleUrl: './seguro-hijo.component.css'
 })
