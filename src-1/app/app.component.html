@@ -33,15 +33,10 @@
 </div>
 <br/>
 
-
-
-<app-seguro-hijo *ngFor="let seguro of seguros; let i=index" [segEnLista]="seguro" [indice]="i"></app-seguro-hijo>
-
- <!--
 <div  class="container">
   <div class="row" *ngFor="let seguro of seguros">
        {{seguro.marca}} {{seguro.modelo}} {{seguro.matricula}} {{seguro.poliza}}
   </div>
 </div>
--->
+
 <router-outlet />

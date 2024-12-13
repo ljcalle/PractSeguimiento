@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 import { Seguros } from './interfaces/seguros';
-import { SeguroHijoComponent } from './seguro-hijo/seguro-hijo.component';
-
 
 @Component({
   selector: 'app-root',
@@ -13,7 +11,6 @@ import { SeguroHijoComponent } from './seguro-hijo/seguro-hijo.component';
     RouterOutlet,
     FormsModule,
     CommonModule,
-    SeguroHijoComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
